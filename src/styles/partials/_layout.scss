@@ -1,6 +1,7 @@
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0 12px ;
 }
 
 .row {
@@ -24,6 +25,9 @@
 }
 .text-center{
   text-align: center;
+}
+.text-end{
+  text-align: right;
 }
 
 .mx-auto{

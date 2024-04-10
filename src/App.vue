@@ -1,6 +1,8 @@
 <template>
-  <h1>{{ titolo }}</h1>
-  <cmp-header />
+  <header>
+        <cmp-header />
+    </header>
+  
   <cmp-main />
   <cmp-footer />
 </template>
@@ -23,7 +25,7 @@ export default {
 <style lang="scss">
 @use './styles/general';
 
-h1 {
-  text-align: center;
+header{
+  background-color: rgb(255,105,0);
 }
 </style>
