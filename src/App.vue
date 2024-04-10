@@ -1,10 +1,14 @@
 <template>
   <header>
-        <cmp-header />
-    </header>
-  
-  <cmp-main />
-  <cmp-footer />
+    <cmp-header />
+  </header>
+  <main>
+    <cmp-main />
+  </main>
+  <footer>
+    <cmp-footer />
+  </footer>
+
 </template>
 
 <script>
@@ -25,7 +29,7 @@ export default {
 <style lang="scss">
 @use './styles/general';
 
-header{
-  background-color: rgb(255,105,0);
+header {
+  background-color: rgb(255, 105, 0);
 }
 </style>
