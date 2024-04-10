@@ -32,4 +32,11 @@ export default {
 header {
   background-color: rgb(255, 105, 0);
 }
+
+footer {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 20px 0;
+  font-size: 0.7em;
+}
 </style>
