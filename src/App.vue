@@ -18,11 +18,6 @@ import CmpFooter from './components/CmpFooter.vue'
 
 export default {
   components: { CmpHeader, CmpMain, CmpFooter },
-  data() {
-    return {
-      titolo: "TITOLO"
-    }
-  }
 }
 </script>
 
