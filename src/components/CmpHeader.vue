@@ -7,7 +7,7 @@
                 <a href="#">Bambini</a>
             </div>
             <div class="col-4 text-center">
-                <img src="../assets/img/boolean-logo.png" alt="logo">
+                <img  @click="console.log(store.products)" src="../assets/img/boolean-logo.png" alt="logo">
             </div>
             <div class="col-4 text-end">
                 <button>U</button>
@@ -17,6 +17,19 @@
         </div>
     </nav>
 </template>
+
+<script>
+import { store } from '../store.js';
+
+
+export default {
+  data(){
+    return{
+        store : store
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 img {

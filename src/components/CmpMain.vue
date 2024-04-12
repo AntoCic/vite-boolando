@@ -20,7 +20,7 @@ export default {
         }
     },
     mounted() {
-        // console.log(this.products);
+        console.log(this.products);
     }
 }
 </script>

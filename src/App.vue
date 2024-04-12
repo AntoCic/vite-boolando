@@ -22,10 +22,19 @@ import CmpFooter from './components/CmpFooter.vue'
 
 export default {
   components: { CmpHeader, CmpMain, CmpFooter },
-  mounted(){
-    axios.get('http://localhost:3000/products').then((res)=>{
-      store.products = res
+  // data(){
+  //   return{
+  //     store : store 
+  //   }
+  // },
+  
+  // }
+  created() {
+    axios.get('http://localhost:3000/products').then((res) => {
+      store.products = res.data
     })
+    console.log('--');
+  
   }
 }
 </script>
