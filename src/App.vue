@@ -12,12 +12,17 @@
 </template>
 
 <script>
+import { store } from './store.js';
+
 import CmpHeader from './components/CmpHeader.vue'
 import CmpMain from './components/CmpMain.vue'
 import CmpFooter from './components/CmpFooter.vue'
 
 export default {
   components: { CmpHeader, CmpMain, CmpFooter },
+  mounted(){
+    // console.log(store);
+  }
 }
 </script>
 

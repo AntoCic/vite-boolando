@@ -8,13 +8,15 @@
     </section>
 </template>
 <script>
+import { store } from '../store.js';
+
 import AppCard from "./AppCard.vue";
-import dbProducts from "../assets/db.json";
+// import dbProducts from "../assets/db.json";
 export default {
     components: { AppCard },
     data() {
         return {
-            products: dbProducts.products
+            products: store.products
         }
     },
     mounted() {
