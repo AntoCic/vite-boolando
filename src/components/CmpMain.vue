@@ -2,7 +2,7 @@
     <section class="container">
         <div class="row">
 
-            <app-card v-for="(product, i) in products" :product="product" :key="i" />
+            <app-card @click="product.isInFavorites = !product.isInFavorites" v-for="(product, i) in products" :product="product" :key="i" />
 
         </div>
     </section>

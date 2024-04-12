@@ -24,7 +24,7 @@ export default {
   components: { CmpHeader, CmpMain, CmpFooter },
   mounted(){
     axios.get('http://localhost:3000/products').then((res)=>{
-      store.products = res.dat
+      store.products = res
     })
   }
 }
