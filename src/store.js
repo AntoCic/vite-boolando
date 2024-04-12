@@ -1,3 +1,5 @@
 import { reactive } from 'vue'
 
-export const store = reactive({products:[]})
+export const store = reactive({
+    products:[]
+})
